@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+import { /* NextRequest ,*/ NextResponse } from "next/server";
 
 /*
 
@@ -8,6 +8,6 @@ export function GET(request: NextRequest){
 
 */
 
-export async function POST(request: NextRequest){
+export async function POST(/*request: NextRequest*/){
     return NextResponse.json({valan: "Larm"}, {status: 200});
 }
